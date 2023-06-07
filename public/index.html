@@ -12,22 +12,7 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!-- kakao api key 추가 -->
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey="></script>
-
-    <script>
-      <!-- https://apis.map.kakao.com/web/guide/ -->
-      function loadMap() {
-        var container = document.getElementById('map');
-        var options = {
-          center: new kakao.maps.LatLng(33.450701, 126.570667),
-          level: 3
-        };
-    
-        var map = new kakao.maps.Map(container, options);
-      }
-    </script>
-    <title>React App</title>
+    <title>KaKao Map</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
